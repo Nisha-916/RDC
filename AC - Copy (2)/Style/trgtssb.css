@@ -1,0 +1,105 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Container for the main content */
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the test navigation menu */
+.test-navigation {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.test-navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.test-navigation ul li {
+    display: inline-block;
+}
+
+.test-navigation ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.test-navigation ul li a:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Heading styles */
+h2 {
+    color: #2c3e50;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 15px;
+}
+button:last-child{
+    margin-right: 0;
+}
+
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #3498db;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

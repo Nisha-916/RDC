@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.instructions, #srt-section, #feedback {
+    margin-bottom: 20px;
+}
+
+.instructions h2, #srt-section h2, #feedback h2 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Situation Box Styles */
+.situation {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* Button Styling */
+#submitBtn {
+    background: #004d40;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submitBtn:hover {
+    background: #00695c;
+}
+
+/* Hidden Section */
+.hidden {
+    display: none;
+}
